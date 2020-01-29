@@ -31,6 +31,7 @@
        {
         //    show error
         echo '<script>alert("Wrong Email or Password")</script>';
+        
        }
    }
 ?>
