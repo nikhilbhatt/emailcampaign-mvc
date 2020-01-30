@@ -1,6 +1,7 @@
 # EmailCampaign
 
-What is next task->
-   1.Complete google login
-   2.Send email with smtp
-   3.Launch Website on amazon ec2 tier.
+What is next task  
+   1.Send email with template  
+   2.Modify view  
+   3.Send email with smtp  
+   4.Verify email.
