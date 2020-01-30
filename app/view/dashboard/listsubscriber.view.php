@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/public/css/dashboardstyle.css">
   </head>
-  <body>
+  <body >
 		
 		<div class="wrapper d-flex align-items-stretch">
 			 
@@ -21,7 +21,7 @@
 			?>
   
         <!-- Page Content  -->
-        <div id="content" class="p-4 p-md-5 pt-5 mt-5">
+        <div id="content" class="p-4 p-md-5 pt-5 bg-light mt-5">
         <div class="container mb-5">
         <h1>Subscriber List</h1>
         </div>

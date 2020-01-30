@@ -11,7 +11,9 @@
          'sendemail'=>'app/controller/dashboard/sendemail.php',
          'listemail'=>'app/controller/dashboard/listemail.php',
          'listsubscriber'=>'app/controller/dashboard/listsubscriber.php',
-         'googlelogin'=>'app/controller/authentication/googlelogin.php'
+         'googlelogin'=>'app/controller/authentication/googlelogin.php',
+         'dashboardcss'=>'public/css/dashobaordstyle.css',
+         'gcallback'=>'app/core/gcallback.php'
      ]
      );
 

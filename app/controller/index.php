@@ -9,7 +9,7 @@
      }
      else
      {
-        require_once 'app/controller/dashboard/listsubscriber.php';
+        require_once 'app/controller/dashboard/sendemail.php';
      }
    
    

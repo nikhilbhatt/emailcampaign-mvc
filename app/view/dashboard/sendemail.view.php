@@ -10,13 +10,13 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/public/css/dashboardstyle.css">
   </head>
-  <body>
+  <body >
 		
 		<div class="wrapper d-flex align-items-stretch">
 			<?php
 			 require_once 'public/sidebar.php';
 			?>
-        <div id="content" class="p-4 p-md-5 pt-5  mt-5 mb-5">
+        <div id="content" class="p-4 p-md-5 pt-5 bg-light  mt-5 mb-5">
             <!-- Page Content make a form and send it through amazon ses-->
             <div class="container">
             <h1>Launch Email Campaign:</h1>
