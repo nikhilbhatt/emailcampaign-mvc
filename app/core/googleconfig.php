@@ -1,6 +1,8 @@
 <?php 
 
-   session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
    require_once 'public/googleapi/vendor/autoload.php';
 
     $google_client=new Google_Client();

@@ -1,5 +1,8 @@
 
-<nav id="sidebar" >			
+<nav id="sidebar" >	
+  <div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary"> </button>
+        </div>		
         <ul class="list-unstyled components mb-5 ">
           <li class="ml-4 mt-4">
           <h4 style="color:white;"> Email Campaign</h4> 

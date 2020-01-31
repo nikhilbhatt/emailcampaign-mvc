@@ -1,8 +1,9 @@
 <?php
-
-   session_start();
+  if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
    require_once 'app/view/authentication/login.view.php';
-   if($_SESSION['user_email'])
+   if(isset($_SESSION['user_email']))
    {
        header("location:sendemail");
    }
@@ -31,7 +32,7 @@
        {
         //    show error
         echo '<script>alert("Wrong Email or Password")</script>';
-        
+
        }
    }
 ?>

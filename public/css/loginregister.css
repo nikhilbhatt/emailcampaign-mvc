@@ -103,7 +103,8 @@
   
   .btn-google {
     color: white;
-    background-color: #ea4335;
+    /* background-color: #ea4335; */
+    background: url('/public/images/google.jpg');
   }
   
   

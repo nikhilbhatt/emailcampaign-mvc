@@ -12,24 +12,25 @@
   </head>
   <body >
 		
-		<div class="wrapper d-flex align-items-stretch">
+		<div class="wrapper d-flex align-items-stretch bg-light">
 			<?php
 			 require_once 'public/sidebar.php';
 			?>
-        <div id="content" class="p-4 p-md-5 pt-5 bg-light  mt-5 mb-5">
+        <div id="content" class="p-4 p-md-5 pt-5 mt-5 mb-5">
             <!-- Page Content make a form and send it through amazon ses-->
             <div class="container">
             <h1>Launch Email Campaign:</h1>
             </div>
-            <div class="container bg-light mt-3 ">
+            <div class="container  mt-3 ">
             <form class="container" method="post" action='sendemail'>
                 <div class="form-group mt-5">
                   <label for="subject">Subject</label>
-                  <input type="text" class="form-control mt-2" name="emailsubject" required>
+                  <!-- <input type="text" class="form-control mt-2" name="emailsubject"  required autofocus> -->
+                  <textarea class="col-md-12" name="emailbody" rows="2" name="emailsubject" style="height:100% border :none;" required ></textarea> 
                 </div>
                   <div class="form-group mt-3">
                     <label for="body">Body</label>
-                    <textarea class="col-md-12" name="emailbody" rows="10" style="height:100%" required ></textarea>
+                    <textarea class="col-md-12" name="emailbody" rows="10" style="height:100% border :none;" required ></textarea>
                   </div>
                <div class="text-center">
                   <button type="submit" class="btn btn-primary mt-2 bg-dark" name="sendemailbutton">Launch Campaign<i class="fas fa-seedling"></i></button>

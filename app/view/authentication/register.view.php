@@ -21,24 +21,24 @@
             <h5 class="card-title text-center">Register</h5>
             <form class="form-signin" method="post" action="register">
               <div class="form-label-group">
-                <input type="text" name="name" class="form-control" placeholder="Username" required autofocus>
-                <label for="inputUserame">Username</label>
+                <input type="text" name="name" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+                <label for="inputUsername">Username</label>
               </div>
 
               <div class="form-label-group">
-                <input type="email" name="useremail" class="form-control" placeholder="Email address" required>
+                <input type="email" name="useremail" id="inputEmail" class="form-control" placeholder="Email address" required>
                 <label for="inputEmail">Email address</label>
               </div>
               
               <hr>
 
               <div class="form-label-group">
-                <input type="password" name="userpassword" class="form-control" placeholder="Password" required>
+                <input type="password" name="userpassword" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Password</label>
               </div>
               
               <div class="form-label-group">
-                <input type="password" name="confirmpassword" class="form-control" placeholder="Password" required>
+                <input type="password" name="confirmpassword" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
                 <label for="inputConfirmPassword">Confirm password</label>
               </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="registersubmit">Register</button>

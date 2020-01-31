@@ -10,21 +10,21 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/public/css/dashboardstyle.css" type="text/css">
   </head>
-  <body >
+  <body>
 		
 		<div class="wrapper d-flex align-items-stretch">
 			<?php
 			 require_once 'public/sidebar.php';
 			?>
         <div id="content" class="bg-light">
-        <div class="container mt-5 col-md-5" >
-            <h1> Add Subscriber</h1>
+        <div class="container mt-5 p-4 col-md-7 text-center" >
+            <h1> Add New Subscriber</h1>
             </div>
-        <div class="container bg-light mt-5 col-md-5" >
+        <div class="container bg-dark mt-5 p-4 col-md-6" >
             <form method="post" class="container" action='addsubscriber'>
                 <div class="form-group mt-5">
                   <label for="name" class="mt-5 ml-5">Name:</label>
-                  <input type="text" class="form-control mt-2 ml-5 col-md-10" name="subscribername" required >
+                  <input type="text" class="form-control mt-2 ml-5 col-md-10" name="subscribername"  autofocus required >
                 </div>
                   <div class="form-group mt-3">
                     <label for="email" class="ml-5">Email:</label>

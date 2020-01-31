@@ -14,7 +14,7 @@
   </head>
   <body >
 		
-		<div class="wrapper d-flex align-items-stretch">
+		<div class="wrapper d-flex align-items-stretch bg-light">
 			 
 			<?php
 			 require_once 'public/sidebar.php';

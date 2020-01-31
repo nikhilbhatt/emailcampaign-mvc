@@ -1,6 +1,8 @@
 <?php
-   session_start();
-   if(!$_SESSION['user_email'])
+   if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+   if(!isset($_SESSION['user_email']))
    {
     header("location:login"); 
    }

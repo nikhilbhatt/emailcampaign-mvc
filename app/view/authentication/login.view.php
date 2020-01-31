@@ -31,7 +31,7 @@
               <!-- <hr> -->
 
               <div class="form-label-group mt-4">
-                <input type="password" name="userpassword" class="form-control" placeholder="Password" required value="<?php if(isset($_COOKIE['login_password'])){ echo $_COOKIE['login_password']; }  ?>">
+                <input type="password" name="userpassword" id="inputPassword" class="form-control" placeholder="Password" required value="<?php if(isset($_COOKIE['login_password'])){ echo $_COOKIE['login_password']; }  ?>">
                 <label for="inputPassword">Password</label>
               </div>
                 
@@ -39,16 +39,21 @@
                 <input type="checkbox" value="selected" name="rememberme">Remember me<br>
               <div>
 
-              <button class="btn mt-4 btn-lg btn-primary btn-block text-uppercase" type="submit" name="loginsubmit">Login</button>
+              <button class="btn mt-4 btn-lg btn-primary btn-block text-uppercase " type="submit" name="loginsubmit">Login</button>
               <hr class="my-4">
-              <a class="d-block text-center mt-4 small" href="register">Register</a>
+               <h6 style="font-family:tempus sans itc; text-align:center;"> Not registered yet?<a class="d-block text-center mt-2 "  href="register">Register Here</a></h6>
               <hr class="my-4">
              </form>
           </div>
         </div>
-        <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" style="border-radius: 30px; font-weight: bold;font-size: 80%; height:12%"
-        onclick="window.location.href = 'gcallback';"
-        >Sign up with Google</button>
+        <div class="row text-center col-md-12">
+  <div class="col-md-12 text-center">
+    <a class="btn btn-outline-primary" href="gcallback" role="button" style=" border-radius: 30px;text-transform:none">
+      <img width="30px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+      Login with Google
+    </a>
+  </div>
+</div>
       </div>
     </div>
   </div>
